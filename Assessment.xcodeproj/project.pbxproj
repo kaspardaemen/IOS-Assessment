@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3413A5971CDBFE4E0030F4F8 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413A5961CDBFE4E0030F4F8 /* TheaterViewController.swift */; };
+		3413A5991CDC04390030F4F8 /* HighRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413A5981CDC04390030F4F8 /* HighRatedViewController.swift */; };
+		343744981CDF7DA800DB6480 /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343744971CDF7DA700DB6480 /* PreferenceController.swift */; };
+		3437449A1CDF8D3300DB6480 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343744991CDF8D3300DB6480 /* PopularViewController.swift */; };
+		3450A1EB1CDB7AF6007CFF77 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450A1EA1CDB7AF6007CFF77 /* RestApiManager.swift */; };
+		3450A1ED1CDB7B09007CFF77 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450A1EC1CDB7B09007CFF77 /* SwiftyJSON.swift */; };
+		3450A1EF1CDB7C5D007CFF77 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450A1EE1CDB7C5D007CFF77 /* Movie.swift */; };
 		34719D281CD29C1F00174432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34719D271CD29C1F00174432 /* AppDelegate.swift */; };
-		34719D2A1CD29C1F00174432 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34719D291CD29C1F00174432 /* MasterViewController.swift */; };
 		34719D2C1CD29C1F00174432 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34719D2B1CD29C1F00174432 /* DetailViewController.swift */; };
 		34719D2F1CD29C1F00174432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34719D2D1CD29C1F00174432 /* Main.storyboard */; };
 		34719D311CD29C1F00174432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34719D301CD29C1F00174432 /* Assets.xcassets */; };
@@ -16,9 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3413A5961CDBFE4E0030F4F8 /* TheaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
+		3413A5981CDC04390030F4F8 /* HighRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighRatedViewController.swift; sourceTree = "<group>"; };
+		343744971CDF7DA700DB6480 /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
+		343744991CDF8D3300DB6480 /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		3450A1EA1CDB7AF6007CFF77 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = ../../SinglePageProject/SinglePageProject/RestApiManager.swift; sourceTree = "<group>"; };
+		3450A1EC1CDB7B09007CFF77 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../SwiftyJSON.swift; sourceTree = "<group>"; };
+		3450A1EE1CDB7C5D007CFF77 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../../SinglePageProject/SinglePageProject/Movie.swift; sourceTree = "<group>"; };
 		34719D241CD29C1F00174432 /* Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34719D271CD29C1F00174432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34719D291CD29C1F00174432 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		34719D2B1CD29C1F00174432 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		34719D2E1CD29C1F00174432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34719D301CD29C1F00174432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,9 +68,15 @@
 		34719D261CD29C1F00174432 /* Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				3450A1EA1CDB7AF6007CFF77 /* RestApiManager.swift */,
+				3450A1EC1CDB7B09007CFF77 /* SwiftyJSON.swift */,
+				3450A1EE1CDB7C5D007CFF77 /* Movie.swift */,
 				34719D271CD29C1F00174432 /* AppDelegate.swift */,
-				34719D291CD29C1F00174432 /* MasterViewController.swift */,
+				343744991CDF8D3300DB6480 /* PopularViewController.swift */,
+				3413A5961CDBFE4E0030F4F8 /* TheaterViewController.swift */,
+				3413A5981CDC04390030F4F8 /* HighRatedViewController.swift */,
 				34719D2B1CD29C1F00174432 /* DetailViewController.swift */,
+				343744971CDF7DA700DB6480 /* PreferenceController.swift */,
 				34719D2D1CD29C1F00174432 /* Main.storyboard */,
 				34719D301CD29C1F00174432 /* Assets.xcassets */,
 				34719D321CD29C1F00174432 /* LaunchScreen.storyboard */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34719D2C1CD29C1F00174432 /* DetailViewController.swift in Sources */,
-				34719D2A1CD29C1F00174432 /* MasterViewController.swift in Sources */,
+				3450A1EF1CDB7C5D007CFF77 /* Movie.swift in Sources */,
+				3450A1EB1CDB7AF6007CFF77 /* RestApiManager.swift in Sources */,
+				3413A5971CDBFE4E0030F4F8 /* TheaterViewController.swift in Sources */,
+				343744981CDF7DA800DB6480 /* PreferenceController.swift in Sources */,
+				3437449A1CDF8D3300DB6480 /* PopularViewController.swift in Sources */,
+				3450A1ED1CDB7B09007CFF77 /* SwiftyJSON.swift in Sources */,
 				34719D281CD29C1F00174432 /* AppDelegate.swift in Sources */,
+				3413A5991CDC04390030F4F8 /* HighRatedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Assessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Avans.Assessment;
@@ -262,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Assessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Avans.Assessment;
@@ -288,6 +314,7 @@
 				34719D3A1CD29C1F00174432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
